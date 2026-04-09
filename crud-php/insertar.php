@@ -5,7 +5,7 @@ $nom = $descripcio = $genere = $any_llancament = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     require_once 'conexion.php';
 
-    // Validació de dades
+    
     $nom           = trim($_POST['nom'] ?? '');
     $descripcio    = trim($_POST['descripcio'] ?? '');
     $genere        = trim($_POST['genere'] ?? '');
@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } elseif (!empty($any_llancament) && !ctype_digit($any_llancament)) {
         $error = "L'any ha de ser un número.";
     } else {
-        // Consulta preparada (segura contra SQL Injection)
+
         $stmt = mysqli_prepare(
             $conexion,
             'INSERT INTO videojuegos (nom, descripcio, genere, any_llancament) VALUES (?, ?, ?, ?)'
