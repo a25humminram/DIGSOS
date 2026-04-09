@@ -27,7 +27,6 @@ h1 {
     font-size: 1.8rem;
 }
 
-/* ---- Taula ---- */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -50,7 +49,7 @@ tr:hover {
     background-color: #0f3460;
 }
 
-/* ---- Botons ---- */
+
 .btn {
     display: inline-block;
     padding: 8px 14px;
@@ -84,7 +83,7 @@ tr:hover {
     color: #fff;
 }
 
-/* ---- Formulari ---- */
+
 .form-group {
     margin-bottom: 18px;
 }
@@ -114,7 +113,7 @@ tr:hover {
     border-color: #e94560;
 }
 
-/* ---- Errors ---- */
+
 .error {
     background-color: #e94560;
     color: #fff;
