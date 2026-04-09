@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
-// Recollida i validació de dades
+
 $id             = filter_input(INPUT_POST, 'id', FILTER_VALIDATE_INT);
 $nom            = trim($_POST['nom'] ?? '');
 $descripcio     = trim($_POST['descripcio'] ?? '');
