@@ -13,7 +13,7 @@ $resultado = mysqli_query($conexion, 'SELECT * FROM videojuegos ORDER BY id ASC'
 </head>
 <body>
 <div class="container">
-    <h1>🎮 Llistat de Videojocs</h1>
+    <h1>Llistat de Videojocs</h1>
     <a href="insertar.php" class="btn btn-success">+ Afegir nou videojoc</a>
 
     <table>
