@@ -30,7 +30,7 @@ if (!$videojoc) {
 </head>
 <body>
 <div class="container">
-    <h1>✏️ Editar videojoc</h1>
+    <h1>Editar videojoc</h1>
     <a href="listar.php" class="btn">← Tornar al llistat</a>
 
     <form method="POST" action="actualizar.php">
